@@ -1,0 +1,22 @@
+# Ignore compiled binaries and object files
+*.o
+*.ko
+*.mod.c
+*.cmd
+.modules
+*.order
+*.symvers
+
+# Ignore logs and temporary files
+dmesg.log
+*.log
+*.tmp
+
+# Ignore backup files (from editors)
+*.swp
+*.swo
+*.bak
+*~
+
+# Ignore build directories
+/build/
